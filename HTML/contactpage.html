@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Gallery Page</title>
+    <link rel="stylesheet" href="../CSS/SCFL.css">
+</head>
+<body>
+    <!-- Main Container-->
+    <main>
+        <!--header -->
+        <header>
+            <div id="logo"><img src="../IMAGES/StanleyFashionClothesLogo.png" alt="Logo Image"></div>
+            <!-- <h1>Stanley's Fashion Clothes </h1> -->
+            <div id="banner"></div>
+        </header>
+
+         <!-- navigation-->
+        <nav>
+            <div><a href="../index.html">Home Page</a></div>
+            <div><a href="../HTML/gallery.html">Gallery Page</a></div>
+            <div id="active"><a href="../HTML/contactpage.html">Contact Page</a></div>
+        </nav>
+
+        <!-- article -->
+        <article id="contactinfo">
+
+            <form action="../index.html">
+                <label> Name :</label>
+                <input type="text" pattern="[a-zA-Z]+"> 
+
+                <label>Address :</label>
+                <input type="text">
+                
+                <label>Email :</label>
+                <input type="email">
+
+                <label>Phone :</label>
+                <input type="tel" pattern="[0-9]{9}">
+
+                <label>Username :</label>
+                <input type="text">
+
+                <label>Password :</label>
+                <input type="password">
+
+                <label> Who are you shopping for mostly :</label>
+                <select>
+                    <option value="NSW">Myself</option>
+                    <option value="QLD">Family</option>
+                    <option value="TAS">Friends</option>
+                    <option value="VIC">Work Related</option>
+                    <optgroup label="Children">
+                        <option value="Boys">Boys</option>
+                        <option value="Girls">Girls</option>
+                    </optgroup>
+                </select>
+
+                <label>Category of fashion you are interested in</label>
+                <div>
+                    <input type="checkbox" value="Men">Men
+                    <input type="checkbox" value="Woman">Woman
+                    <input type="checkbox" value="Others">Others
+                </div>
+
+                <label>Are you interested in our lateset deals and fashion? Sign up today or in-store!!</label>
+                <div>
+                    <input type="radio" value="no" name="signup">No 
+                    <input type="radio" value="yes" name="signup">Yes
+                </div>
+                <input type="submit" value="Submit">
+            </form>
+
+            <table>
+                <tr>
+                    <td>Name :</td>
+                    <td>Stanley Cai</td>
+                </tr>
+                <tr>
+                    <td>Address :</td>
+                    <td>888 Hollywood Avenue, Brisbane 4001</td>
+                </tr>
+                <tr>
+                    <td>Phone :</td>
+                    <td>04987654321</td>
+                </tr>
+                <tr>
+                    <td>Email :</td>
+                    <td>stanley@tqstudent.edu.jm</td>
+                </tr>
+            </table>
+        </article>
+        <!-- Footer -->
+        <footer>
+            <div id="top">
+                <a href="http://www.facebook.com" target="_blank"><img src="../IMAGES/facebook-icon.png" alt="Footer 1"></a>
+                <a href="http://www.youtube.com" target="_blank"><img src="../IMAGES/youtube-color-icon.png" alt="Footer 2"></a>
+                <a href="http://www.instagram.com" target="_blank"><img src="../IMAGES/Instagram-icon.png" alt="Footer 3"></a>
+            </div>
+            <div id="bottom">&copy; Stanley Cai 2023</div>
+        </footer>
+    </main>
+</body>
+</html>
